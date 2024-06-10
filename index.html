@@ -44,7 +44,8 @@
 </head>
 <body>
   <div class="flex justify-center  bg-no-repeat  bg-cover h-full md:bg-center"
-  style="background-image:url('https://source.unsplash.com/700x400/?white')">
+   style="position: relative;">
+   <img src="white.jpg" alt="White Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"></div>
   <div class="flex flex-col items-center ">
       <nav class="self-center w-full max-w-7xl ">
           <div
@@ -287,7 +288,7 @@
       <div class="flex md:flex-row flex-col max-w-7xl justify-center items-center">
         <div class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
           <div class="h-52 w-full overflow-hidden">
-            <img src="https://source.unsplash.com/500x550/?timetable" alt="" class="" />
+            <img src="timetable.png" alt="" class="w-500 h-500" />
           </div>
           <div class="grid p-2">
             <div class="font-bold text-lg text-black m-2">
@@ -313,7 +314,7 @@
 
           <div class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
             <div class="h-52 w-full overflow-hidden">
-              <img src="https://source.unsplash.com/500x550/?tic tac toe" alt="" class="" />
+              <img src="tic.png" alt="" class="" />
             </div>
             <div class="grid p-2">
               <div class="font-bold text-lg text-black m-2">
@@ -336,7 +337,7 @@
           
           <div
               class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
-              <div class="h-26 w-full overflow-hidden"> <img src="https://source.unsplash.com/random/500x550/?sudoku "
+              <div class="h-26 w-full overflow-hidden"> <img src="sudoku.png"
                       alt="" class="" /> </div>
               <div class="grid p-2">
                   <div class="font-bold text-lg text-black m-2 ">
@@ -357,7 +358,7 @@
       <div class="flex md:flex-row flex-col max-w-7xl justify-center items-center">
           <div
               class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
-              <div class="h-26 w-full overflow-hidden"> <img src="https://source.unsplash.com/random/500x550/?university society "
+              <div class="h-26 w-full overflow-hidden"> <img src="campusforge.png"
                       alt="" class="" /> </div>
               <div class="grid p-2">
                   <div class="font-bold text-lg text-black m-2 ">
@@ -377,7 +378,7 @@
           </div>
           <div
               class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
-              <div class="h-26 w-full overflow-hidden"> <img src="https://source.unsplash.com/random/500x550/?social network "
+              <div class="h-26 w-full overflow-hidden"> <img src="social.webp"
                       alt="" class="" /> </div>
               <div class="grid p-2">
                   <div class="font-bold text-lg text-black m-2 ">
@@ -397,7 +398,7 @@
           </div>
           <div
               class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
-              <div class="h-26 w-full overflow-hidden"> <img src="https://source.unsplash.com/random/500x550/?pets "
+              <div class="h-26 w-full overflow-hidden"> <img src="petpal.png"
                       alt="" class="" /> </div>
               <div class="grid p-2">
                   <div class="font-bold text-lg text-black m-2 ">
@@ -419,7 +420,7 @@
       <div class="flex md:flex-row flex-col max-w-7xl justify-center items-center">
           <div
               class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
-              <div class="h-26 w-full overflow-hidden"> <img src="https://source.unsplash.com/random/500x550/?game "
+              <div class="h-26 w-full overflow-hidden"> <img src="crystal.png"
                       alt="" class="" /> </div>
               <div class="grid p-2">
                   <div class="font-bold text-lg text-black m-2 ">
@@ -438,7 +439,7 @@
           </div>
           <div
               class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
-              <div class="h-26 w-full overflow-hidden"> <img src="https://source.unsplash.com/random/500x550/?coding "
+              <div class="h-26 w-full overflow-hidden"> <img src="coding.png"
                       alt="" class="" /> </div>
               <div class="grid p-2">
                   <div class="font-bold text-lg text-black m-2 ">
@@ -457,7 +458,7 @@
           </div>
           <div class="overflow-hidden bg-white m-2 shadow-lg flex flex-col md:flex-row justify-center md:w-1/3 w-3/4 hover:scale-105 hover:brightness-90">
             <div class="h-52 w-full overflow-hidden">
-              <img src="https://source.unsplash.com/500x550/?shopping" alt="" class="" />
+              <img src="shopping.png" alt="" class="" />
             </div>
             <div class="grid p-2">
               <div class="font-bold text-lg text-black m-2">
@@ -765,7 +766,7 @@
 
 
 
-<script type="module">
+<!-- <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
@@ -787,7 +788,10 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-</script>
+</script> -->
+
+
+
 
 
 </body>
